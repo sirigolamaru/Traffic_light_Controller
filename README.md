@@ -1,11 +1,11 @@
 # Traffic_light_Controller
 
 
-AIM:
+## AIM:
 
 To design, implement, and simulate a Traffic Light Controller using Verilog HDL in Xilinx Vivado, controlling Red, Yellow, and Green lights at a road junction using an FSM.
 
-APPARATUS / TOOLS REQUIRED:
+## APPARATUS / TOOLS REQUIRED:
 
 Vivado  tool(2024.2 or later recommended)
 
@@ -13,7 +13,7 @@ Computer / Laptop
 
 Verilog HDL
 
-PROCEDURE: 
+## PROCEDURE: 
 
 Open Vivado → Create New Project → RTL Project → No Default Part
 
@@ -35,7 +35,7 @@ Run Vivado Simulation → Check waveforms
 
 Synthesize → Implement → Generate Bitstream (Optional for FPGA)
 
-VERILOG CODE FOR TRAFFIC LIGHT CONTROLLER:
+## VERILOG CODE FOR TRAFFIC LIGHT CONTROLLER:
 
        `timescale 1ns / 1ps
     module traffic_light_controller(
@@ -117,12 +117,12 @@ VERILOG CODE FOR TRAFFIC LIGHT CONTROLLER:
     end
     
     endmodule
-RTL DIAGRAM:
+## RTL DIAGRAM:
 <img width="1366" height="768" alt="rtl diagram" src="https://github.com/user-attachments/assets/42d9b46a-528e-42e9-a534-8087b7e3d9eb" />
 
 
 
-  TESTBENCH FOR TRAFFIC LIGHT CONTROLLER:
+  ## TESTBENCH FOR TRAFFIC LIGHT CONTROLLER:
 
        `timescale 1ns / 1ps
           module tb;
@@ -142,7 +142,7 @@ RTL DIAGRAM:
           
           endmodule
 
-OUTPUT:
+## OUTPUT WAVEFORM:
 <img width="1366" height="768" alt="waveform" src="https://github.com/user-attachments/assets/c3d0bacb-b5ec-44f2-ac0d-64f2df4a7d71" />
 
 CONCLUSION:<br>
