@@ -145,7 +145,7 @@ Synthesize → Implement → Generate Bitstream (Optional for FPGA)
 ## OUTPUT WAVEFORM:
 <img width="1366" height="768" alt="waveform" src="https://github.com/user-attachments/assets/c3d0bacb-b5ec-44f2-ac0d-64f2df4a7d71" />
 
-CONCLUSION:<br>
+## CONCLUSION:<br>
 The Traffic Light Controller project was successfully designed and implemented using Verilog HDL in Vivado. The design utilizes a Finite State Machine (FSM) to control the Red, Yellow, and Green traffic signals with accurate timing using a clock-based counter.
 
   
